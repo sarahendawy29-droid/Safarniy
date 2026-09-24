@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x:  hidden;
+}
+#heroimage{
+    object-fit: cover;
+    width: 1750px;
+    height: 40%;
+}
+#hero-section h1{
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+#hero-section p{
+    position: relative;
+    bottom: 320px;
+    left: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e6e3e3;
+    font-size: 25px;
+}
+#information{
+position: relative;
+bottom: 140px;
+left: 40px;
+}
+#story h1 {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+#story p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #404040;
+    font-size: 20px;
+}
+#story img {
+object-fit: cover;
+    width: 60%;
+    height: 210px;
+    position: relative;
+    left: 270px;
+
+}
+#story h1:hover{
+    color: rgb(59, 121, 247);
+}
+#value h1:hover{
+    color: rgb(59, 121, 247);
+}
+#story{
+    padding: 0;
+    margin: 0;
+}
+#value{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 300px;
+}
+#value img {
+object-fit: cover;
+    width: 65%;
+    height: 250px;
+    position: relative;
+    left: 236px;
+}
+#value h1{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+#banner{
+    position: relative;
+    right: -1230px;
+    bottom: 575px;
+
+}
+#banner img{
+    border: 5px solid rgb(224, 223, 232);
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+}
