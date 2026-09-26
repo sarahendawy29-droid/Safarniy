@@ -74,3 +74,7 @@ footer {
   margin-left: 15px;
   cursor: pointer;
 }
+h1{
+    background-color: bisque;
+    color: brown;
+}
