@@ -36,32 +36,37 @@ body{
     display: flex;
     background-color: rgb(255, 255, 255);
     position: relative;
+    justify-content: center;
 }
 .category{
     border: 2px solid #d5e6fa;
     border-radius: 25px;
- width: 50%;
-    margin: 25px;
+    width: calc(23% - 20px);
+    margin: 10px;
+   
+    
 }
 .category img{
     object-fit: cover;
     height: 150px;
     width: 100%;
-    border-radius: 20px;
-    padding: none;
+    border-radius: 20px 20px 0 0;
+    padding: 0;
 }
 .category h2,p,h1{
     padding: 0 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 .category button{
-    padding: 0 15px;
-font-family: Arial, Helvetica, sans-serif;  
-  background-color: rgb(26, 101, 242);
-color: white;
-border-radius: 15px;
-height: 50px;
-width: 345px;
-margin: 10px;
+   font-family: Arial, Helvetica, sans-serif;  
+    background-color: rgb(26, 101, 242);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    cursor: pointer;
 
 }
