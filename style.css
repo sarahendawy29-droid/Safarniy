@@ -177,9 +177,9 @@ footer {
 .card{
     position: relative;
     height: 250px;
-    border-radius: var(--radius-lg);
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: var(--card-shadow);
+    
 }
 
 .card img {
