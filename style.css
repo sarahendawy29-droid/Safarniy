@@ -1,5 +1,15 @@
 
-
+html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+        
+}
+body{
+    background-color: #e9e8e9;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -8,6 +18,7 @@
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
 
 .logo {
     display: flex;
@@ -93,7 +104,7 @@ footer {
     text-transform: uppercase;
     color: rgba(203, 201, 201, 0.8);
     font-weight: 600;
-    gap:100px;
+   margin-bottom: 250px;
 }
 .banner-content h1{
    font-family: 'Playfair Display', serif;
@@ -167,65 +178,19 @@ footer {
     font-size: 10px;
     color: var(--text-muted);
 }
-.destinations{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 18px;
-    margin-bottom: 70px;
-}
 
-.card{
-    position: relative;
-    height: 250px;
-    border-radius: 10px;
-    overflow: hidden;
-    
-}
 
-.card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card:hover img {
-    transform: scale(1.08);
-    transition: transform 0.5s;
-}
-
-.dest-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%);
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: #fff;
-}
-
-.dest-title {
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.dest-subtitle {
-    font-size: 11px;
-    opacity: 0.8;
-}
-
-.dest-pin {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    color: rgba(255,255,255,0.7);
-    font-size: 12px;
-}
 .tour-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin-bottom: 70px;
+    max-width: 1400px;
+    width:100%;
+    box-sizing: border-box;
+    margin:40px auto;
+    padding: 0;
+   
+    
 }
 
 .package-card {
@@ -233,6 +198,7 @@ footer {
     border-radius:10px;
     overflow: hidden;
     border: 1px solid #f0f0f0;
+   
 }
 
 .package-img-wrap {
@@ -298,17 +264,32 @@ footer {
     font-weight: 400;
     margin-left: 4px;
 }
+.tour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.tour-title{
+    margin-bottom: 0;
+}
 .view-all {
-            color: var(--text-dark);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 14px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            transition: color 0.3s;
-        }
+    color: rgb(89, 89, 89);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+    
+}
 
-        .view-all:hover {
-            color: var(--primary);
-        }
+.view-all:hover {
+    color: black;
+    transition: color 0.3s;
+}
