@@ -4,34 +4,37 @@ body{
     overflow-x: 0;
 }
 
+
 #hero-section img{
     object-fit: cover;
-    width: 80%;
+    width: 70%;
     height: 53%;
     border-radius: 25px;
 }
+
 #hero-section{
   padding: 32 32px;
 }
+
 #banner img{
   object-fit: cover;
-    width: 300px;
+    width: 250px;
     height: 250px;
     border-radius: 25px;
 }
 #banner{
 position: relative;
-left:1380px;
+left:1200px;
 bottom: 550px;
 }
 #banner1{
 position: relative;
-left:1380px;
+left:1200px;
 bottom: 535px;
 }
 #banner1 img{
   object-fit: cover;
-    width: 300px;
+    width: 250px;
     height: 250px;
     border-radius: 25px;
 }
