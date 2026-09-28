@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f8f9fa;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0b2545;
+}
+.logo i{
+    color: #0077b6;
+    margin: 5px;
+}
+.links{
+    display: flex;
+    gap: 50px;
+}
+.links a{
+    text-decoration: none;
+    color: #0b2545;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.links a:hover{
+    color: #0077b6;
+}
+.btn-book {
+    background-color: #0077b6;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 6px;             
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-book:hover {
+    background-color: #023e8a;
+}
+.hero-section{
+    background:url('img/img\ mm.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px; 
+    position: relative;
+}
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.45); 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;         
+    justify-content: center;        
+    padding-left: 60px;             
+    color: #ffffff;                 
+}
+
+.hero-overlay h1 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.hero-overlay p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+/* Destinations Section  */
+.destinations-section {
+    padding: 50px 80px;
+    background-color: #f8fafc;
+}
+
+/* Grid */
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* Design */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  Image */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Content */
+.card-body {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-body h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.card-body .country {
+    font-size: 13px;
+    color: #718096;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 13px;
+    color: #4a5568;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+/* Price */
+.card-body .price {
+    font-size: 14px;
+    color: #1a202c;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card-body .price span {
+    font-weight: 800;
+    color: #007bc4;
+}
+
+/* Button */
+.details-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bc4;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: #005a92;
+}
