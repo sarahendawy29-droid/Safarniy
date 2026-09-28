@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: 0;
+}
+
+#hero-section img{
+    object-fit: cover;
+    width: 80%;
+    height: 53%;
+    border-radius: 25px;
+}
+#hero-section{
+  padding: 32 32px;
+}
+#banner img{
+  object-fit: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+}
+#banner{
+position: relative;
+left:1380px;
+bottom: 550px;
+}
+#banner1{
+position: relative;
+left:1380px;
+bottom: 535px;
+}
+#banner1 img{
+  object-fit: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+}
+#des{
+    position: relative;
+    bottom: 540px;
+    padding-left: 40px;
+    font-size: 15px;
+}
+#des p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#des1{
+    display: flex;
+gap:250px;
+font-size: 30px;
+position: relative;
+}
+i{
+    margin-right: 10px;
+    color: blue;
+}
+#info{
+position: relative;
+padding-left: 35px;
+bottom: 550px;
+}
+#info p{
+font-size: 27px;
+color: #555;
+}
+#all{
+    padding-left: 35px;
+    display: flex;
+    position: relative;
+    bottom: 550px;
+    gap: 200px;
+}
+#services li{
+    font-size: 25px;
+    color: #383636;
+}
+#activities li{
+        font-size: 30px;
+    color: #383636;
+}
+.lichange {
+    position: relative;
+    left: 350px;
+    bottom: 105px;
+}
