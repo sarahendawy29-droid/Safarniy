@@ -304,12 +304,13 @@ footer {
     border: 1px solid #e2e8f0;
     display: flex;
     flex-direction: column;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.03);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3 ease;
 }
 
 
@@ -390,7 +391,11 @@ footer {
 .card-content .btn:hover {
     background-color: #005a92;
 }
-
+.packadge-a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
 .tour-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
