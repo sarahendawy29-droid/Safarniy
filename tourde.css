@@ -85,6 +85,7 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     width: 100%;
     box-sizing: border-box;
+    margin: 0;
 }
 .logo {
     display: flex;
@@ -155,79 +156,174 @@ footer {
     height: 53%;
     border-radius: 25px;
 }
-
-#hero-section{
-  padding: 32 32px;
+#images {
+    width: calc(100% - 80px);
+    margin: 30px auto 0;
+    
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    grid-template-rows: 230px 230px;
+    gap: 20px;
+}
+#hero-section {
+    grid-column: 1;
+    grid-row: 1 / 3;
 }
 
-#banner img{
-  object-fit: cover;
-    width: 250px;
-    height: 250px;
+#hero-section img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
     border-radius: 25px;
+    display: block;
 }
-#banner{
-position: relative;
-left:1200px;
-bottom: 550px;
+#banner {
+    grid-column: 2;
+    grid-row: 1;
 }
-#banner1{
-position: relative;
-left:1200px;
-bottom: 535px;
+
+#banner1 {
+    grid-column: 2;
+    grid-row: 2;
 }
-#banner1 img{
-  object-fit: cover;
-    width: 250px;
-    height: 250px;
+
+#banner img,
+#banner1 img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
     border-radius: 25px;
+    display: block;
 }
-#des{
-    position: relative;
-    bottom: 540px;
+#des {
+    grid-column: 1 / 3;
+    padding: 10px 5px 0;
+}
+
+#des h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+}
+
+#des h2 {
+    margin: 0;
+    font-size: 19px;
+    color: #555;
+}
+
+#des1 {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+#des1 p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#des1 i {
+    margin-right: 8px;
+}
+#info {
     padding-left: 40px;
-    font-size: 15px;
+    margin-top: 35px;
 }
-#des p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
 
+#info h1 {
+    margin-bottom: 10px;
 }
-#des1{
+#info p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+}
+#all {
     display: flex;
-gap:250px;
-font-size: 30px;
-position: relative;
+    gap: 180px;
+    padding-left: 40px;
+    margin-top: 30px;
 }
-i{
-    margin-right: 10px;
-    color: blue;
+#services h1,
+#activities h1 {
+    font-size: 23px;
 }
-#info{
-position: relative;
-padding-left: 35px;
-bottom: 550px;
-}
-#info p{
-font-size: 27px;
-color: #555;
-}
-#all{
-    padding-left: 35px;
-    display: flex;
-    position: relative;
-    bottom: 550px;
-    gap: 200px;
-}
-#services li{
-    font-size: 25px;
+#services li,
+#activities li {
+    font-size: 18px;
     color: #383636;
-}
-#activities li{
-        font-size: 30px;
-    color: #383636;
+    margin-bottom: 12px;
 }
 .lichange {
-    position: relative;
-    left: 350px;
-    bottom: 105px;
+    position: static;
+}
+#booking {
+    position: absolute;
+bottom: 30px;
+    right: 320px;
+
+    width: 430px;
+    padding: 20px;
+
+    background-color: #88d3f8;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#booking:hover{
+    scale: 1.05;
+}
+#booking h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+#booking form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#booking input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+#booking input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#booking input[type="date"],
+#booking input[type="time"] {
+    width: calc(50% - 5px);
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bc4;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #005a92;
+}
+a{
+    text-decoration: none;
 }
