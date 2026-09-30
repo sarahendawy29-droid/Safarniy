@@ -261,8 +261,8 @@ footer {
 #booking {
     position: absolute;
 bottom: 30px;
-    right: 320px;
-
+   right:320px;
+   
     width: 430px;
     padding: 20px;
 
@@ -273,6 +273,7 @@ bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+  
 }
 #booking:hover{
     scale: 1.05;
