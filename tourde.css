@@ -260,7 +260,7 @@ footer {
 }
 #booking {
     position: absolute;
-bottom: 30px;
+    top: 750px;
    right:320px;
    
     width: 430px;
